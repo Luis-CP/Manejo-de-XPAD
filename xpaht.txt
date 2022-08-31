@@ -1,0 +1,4 @@
+Links= '//div[@class="main-story" or @class="side-story"]/h3/a/@href'
+Titulos= '//h1[@class="entry-title"]/text()'
+Subtitulo='//div[@class="entry-content"]/p/em/strong/text()'
+cuerpo='//div[@class="entry-content"]/p[not(@class)] /text()'
